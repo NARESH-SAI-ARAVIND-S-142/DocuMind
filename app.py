@@ -93,7 +93,7 @@ def get_reranker():
 # ─────────────────────────────────────────────
 # 3. VALIDATION
 # ─────────────────────────────────────────────
-
+GROQ_API_KEY=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
 def validate_api_key() -> bool:
     if not os.getenv("GROQ_API_KEY"):
         st.error(
